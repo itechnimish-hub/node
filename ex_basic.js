@@ -1,15 +1,21 @@
 // express routing
 
-//  const express = require('express');
+//const express = require('express');
 
-// const router = express.Router();
+//  const admin = express.Router();
 // const app = express.Router();
-// router.get("/", (req, resp) => {
-//     const name = req.query.name;
-//     resp.send("This is an About Page " + name);
+// app.get("/", (req, resp) => {
+//      const name = req.query.name;
+//      console.log(name)
+//     resp.send("This is an About Page"+name);
 // });
 
-// module.exports = router;
+// app.get("/user", (req, resp) => {
+//     // const name = req.query.name;
+//     resp.send("This is an user Page");
+// });
+
+// module.exports = app;
 
 // app.get("/user", (req, resp) => {
 //     // console.log(req.query.name)
@@ -34,11 +40,11 @@
 // module.exports = app;
 // express html page render
 
-// const express = require('express');
-// const path = require('path');
+//  const express = require('express');
+//  const path = require('path');
 
-// const app = express();
-// const publicPath=path.join(__dirname,'public')
+//  const app = express();
+//  const publicPath=path.join(__dirname,'public')
 
 //  console.log(publicPath)
 
@@ -69,10 +75,10 @@ app.get("*", (_, resp) => {
     resp.sendFile(`${publicPath}/help.html`);
 
 });
- module.exports = app;
+  module.exports = app;
 // resp.end(`
 // <a href="/">back home</a>`)
-//  app.listen(5000);
+//   app.listen(5000);
 // app.listen(1000);
 
 
