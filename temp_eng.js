@@ -24,13 +24,13 @@ app.get("/profile", (_, resp) => {
     }
     ]
 
-    resp.render('profile', { user });
+    resp.render('profile');
 
 });
 
-app.get("/home", (_, resp) => {
-resp.render('home'); 
-});
+// app.get("/home", (_, resp) => {
+// resp.render('home'); 
+// });
 
 // app.get("/home", (_, resp) => {
 //     const user=[{

@@ -75,10 +75,10 @@ app.get("*", (_, resp) => {
     resp.sendFile(`${publicPath}/help.html`);
 
 });
-  module.exports = app;
+//   module.exports = app;
 // resp.end(`
 // <a href="/">back home</a>`)
-//   app.listen(5000);
+  app.listen(5000);
 // app.listen(1000);
 
 
