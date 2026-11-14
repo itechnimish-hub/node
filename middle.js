@@ -25,7 +25,7 @@ const reqFilter = (req, resp, next) => {
 
 app1.use(reqFilter);
 
-app.get('/', (res, resp) => {
+app.get('/test', (res, resp) => {
 
     resp.send('Welcome to Home page')
 
